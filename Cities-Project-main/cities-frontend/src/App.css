@@ -1,0 +1,36 @@
+.page-title {
+    text-align: center;
+}
+
+.highlighted-row {
+    background-color: rgb(248, 248, 157); 
+}
+
+ui5-button {
+    margin-left: 10px;
+}
+
+.dialog-container ui5-input, ui5-select {
+    width: 100%;
+}
+
+.table-search ui5-button {
+    margin-left: 5px;
+}
+
+.ui5-popup-footer-root {
+    padding: 0;
+}
+
+.loading-backdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 23, 23, 0.306);
+}
